@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE WEBSITE 1</title>
+    <link rel="stylesheet" href="style.css">
+    <div id="mainpic"><center>
+        <p id="maintext">DO YOU LOVE ME??</p>
+    </center><br><br>
+    <div id="buttonrow">
+    <button id="btnyes">YES!!</button><button id="btnno" onclick="moveutton()">NO!!</button>
+    </div></div>  
+    <div id="content2" style ="display:none">
+        <br><br><br><div id="t1">
+            AWWW !!
+          </div>
+          <div id="maintext1">
+            YOU FINALLY SAID YESSS!!
+          </div><br><br><br><br><br><br><br><br>
+          
+          <div id="displayText"></div>
+          <div id="lowerpic">
+          
+          </div>
+          <script src="index.js"></script>
+          <script>
+            setTimeout(function() {
+            document.getElementById("displayText").innerHTML = "Your response have been recorded";
+          }, 5000);
+          </script>
+          <script>
+            document.getElementById('btnyes').addEventListener('click', function() {
+                var content2 = document.getElementById("content2");
+                
+                if (content1.style.display === "none") {
+                    content1.style.display = "block";
+                    content2.style.display = "none";
+                } else {
+                    content1.style.display = "none";
+                    content2.style.display = "block";
+                }
+            });
+            </script>
+    </div> 
+    <script src="script.js"></script> 
+</body>
+</html>

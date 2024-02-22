@@ -1,0 +1,75 @@
+@media only screen and (min-width:100px){
+    body{
+    background-color: rgb(160, 81, 224);
+    }
+    #mainpic{
+        margin-top: 50px;
+    }
+    #btnyes{
+        background-color: rgb(223, 108, 184);
+        margin-left:14px;
+        margin-top: 500;
+        height: 75px;
+        width: 165px;
+        border-radius: 10px;
+        border: 2px solid rgb(68, 0, 255);
+        font-size: 24px;
+        font-family: monospace;
+    }
+    #btnno{
+        background-color: rgb(223, 108, 184);
+        margin-left: 100px;
+        margin-top: 0px;
+        height: 75px;
+        width: 165px;
+        border-radius: 10px;
+        border: 2px solid rgb(68, 0, 255);
+        font-size: 24px;
+        font-family: monospace;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    #maintext{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000;
+        font-size:36px;
+        margin-left: 30px
+    }
+    #buttonrow{
+        display:flex;
+        margin-top: 175px;
+    }
+    #main{
+        margin-top: 100px;
+        margin-left: 70px;
+        height: 200px;
+        width:400px;
+
+    }
+    #maintext1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000;
+        font-size:24px;
+        margin-left:20px;
+        margin-top: 50px;
+    }
+    #lowerpic{
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+    #upperpic{
+        margin-top: 50px;
+    }
+    #displayText{
+        color:white;
+    }
+    #t1{
+        margin-top: 200px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000;
+        font-size:60px;
+        margin-left:110px;
+    }
+}
